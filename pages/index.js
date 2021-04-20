@@ -33,7 +33,7 @@ export default function Home() {
         <div>
           {!session ? (
             <button
-              onClick={() => signIn("google")}
+              onClick={() => signIn()}
               className="flex items-center bg-[#e50914] text-white text-sm px-4 py-2 rounded outline-none"
             >
               Sign In
@@ -65,7 +65,7 @@ export default function Home() {
             className="bg-white p-4 min-w-[175px] sm: w-full outline-none"
           />
           <button
-            onClick={() => signIn("google")}
+            onClick={() => signIn()}
             className="flex items-center bg-[#e50914] text-white text-sm px-4 py-2 rounded"
           >
             Get Started
